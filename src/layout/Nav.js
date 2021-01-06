@@ -26,24 +26,24 @@ const NavPage = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/components/" active>
+                            <NavLink href="/" active>
                                 IN TEATERS
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/components/">COMMING SOON</NavLink>
+                            <NavLink href="/">COMMING SOON</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/components/">CHARTS</NavLink>
+                            <NavLink href="/">CHARTS</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/components/">TV SERIES</NavLink>
+                            <NavLink href="/">TV SERIES</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/components/">TRAILERS</NavLink>
+                            <NavLink href="/">TRAILERS</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/components/">MORE</NavLink>
+                            <NavLink href="/">MORE</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
