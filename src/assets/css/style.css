@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+html, body{
+    background-color: #dadada80;
+}
+.header {
+    background: url('../images/Galeria.png');
+    height: 420px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header .container {
+    padding-top: 35px;
+}
+
+.header .container .header-right {
+    text-align: end;
+}
+
+.header-right,
+.header-left img {
+    cursor: pointer;
+}
+
+.header .container .header-right .header-categorias {
+    margin-right: 35px;
+}
+
+.header-description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.header-description .play-button {
+    width: 70px;
+    cursor: pointer;
+}
+
+.header-description .header-title {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.navbar-nav{
+    width: -webkit-fill-available;
+    justify-content: center;
+    color: #000;
+}
+
+.nav-item a {
+    color: black;
+    margin: 10px 15px;
+}
+
+.nav-item .active {
+    color: orange;
+    border-bottom: 1px solid;
+    font-weight: 600;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 16px;
+}
+
+.category-movie{
+    color: orange;
+    font-size: 13px;
+    font-weight: 600;
+}
